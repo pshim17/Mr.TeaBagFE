@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "subscription_id": 1,
+    "tea_id": 1
+  },
+  {
+    "id": 2,
+    "subscription_id": 2,
+    "tea_id": 2
+  },
+  {
+    "id": 3,
+    "subscription_id": 1,
+    "tea_id": 3
+  }
+]
