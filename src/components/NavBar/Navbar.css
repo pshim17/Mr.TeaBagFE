@@ -1,0 +1,27 @@
+.navbar-container {
+  width: 100%;
+  background-color: #C2E8C4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.logo-title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  color: black;
+  font-family: 'Pacifico', cursive;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+  position: absolute;
+  left: 20px;
+  margin-right: auto;
+}
