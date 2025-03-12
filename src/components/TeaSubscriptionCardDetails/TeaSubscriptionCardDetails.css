@@ -1,6 +1,6 @@
 .TeaSubscriptionCardDetails {
   text-align: center;
-  background-color: white;
+  background-color: #E6E6E6;
   height: 80%;
   max-width: 800px;
   margin: auto;
@@ -75,47 +75,18 @@
 }
 
 
-.TeaSubscriptionCardDetails .button-container button {
+.TeaSubscriptionCardDetails button {
   padding: 10px 20px;
   font-size: 16px;
   color: white;
-  background-color:black;
+  background-color: #D32F2F;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  margin-top: 20px;
 }
 
-.TeaSubscriptionCardDetails .button-container button:hover {
-  background-color: black; 
+.TeaSubscriptionCardDetails button:hover {
+  background-color: #B71C1C; 
 }
-
-
-/* @media (max-width: 768px) {
-  .TeaSubscriptionCardDetails {
-    padding: 10px;
-    width: 90%;
-  }
-
-  .TeaSubscriptionCardDetails img {
-    width: 150px;
-    height: 150px;
-  }
-
-  .TeaSubscriptionCardDetails h1 {
-    font-size: 28px;
-  }
-
-  .TeaSubscriptionCardDetails h2 {
-    font-size: 20px;
-  }
-
-  .TeaSubscriptionCardDetails .teas h3,
-  .TeaSubscriptionCardDetails .customers h3 {
-    font-size: 18px;
-  }
-
-  .TeaSubscriptionCardDetails p {
-    font-size: 16px;
-  }
-} */

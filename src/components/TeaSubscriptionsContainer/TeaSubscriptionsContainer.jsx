@@ -3,7 +3,6 @@ import TeaSubscriptionCards from '../TeaSubscriptionCards/TeaSubscriptionCards.j
 import teaIcon from '../../assets/icons/tea-icon.jpg';
 
 function TeaSubscriptions( {teaSubscriptions} ) {
-
   const teaSubscriptionsCards = teaSubscriptions.map(teaSubscription => {
     return (
       < TeaSubscriptionCards
