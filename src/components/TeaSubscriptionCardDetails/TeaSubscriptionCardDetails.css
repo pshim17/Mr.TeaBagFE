@@ -1,0 +1,121 @@
+.TeaSubscriptionCardDetails {
+  text-align: center;
+  background-color: white;
+  height: 80%;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TeaSubscriptionCardDetails img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: -100px;
+  border: 5px solid #fff;
+}
+
+.TeaSubscriptionCardDetails h1 {
+  color: #4B0082;
+  font-size: 36px;
+}
+
+.TeaSubscriptionCardDetails h2 {
+  color: #2E8B57;
+  font-size: 24px;
+  margin: 10px 0px;
+}
+
+.TeaSubscriptionCardDetails .teas,
+.TeaSubscriptionCardDetails .customers {
+  width: 100%;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.TeaSubscriptionCardDetails .teas h3,
+.TeaSubscriptionCardDetails .customers h3 {
+  font-size: 22px;
+  color: #2E8B57;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.TeaSubscriptionCardDetails p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5;
+  margin: 5px 0px;
+}
+
+.TeaSubscriptionCardDetails .teas p,
+.TeaSubscriptionCardDetails .customers p {
+  margin-left: 20px;
+  text-align: center;
+  margin-left: 0;
+}
+
+.TeaSubscriptionCardDetails .button-container {
+  display: flex;
+  justify-content: center; 
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.TeaSubscriptionCardDetails .status-active {
+  color: green;
+}
+
+.TeaSubscriptionCardDetails .status-inactive {
+  color: red;
+}
+
+
+.TeaSubscriptionCardDetails .button-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color:black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.TeaSubscriptionCardDetails .button-container button:hover {
+  background-color: black; 
+}
+
+
+/* @media (max-width: 768px) {
+  .TeaSubscriptionCardDetails {
+    padding: 10px;
+    width: 90%;
+  }
+
+  .TeaSubscriptionCardDetails img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .TeaSubscriptionCardDetails h1 {
+    font-size: 28px;
+  }
+
+  .TeaSubscriptionCardDetails h2 {
+    font-size: 20px;
+  }
+
+  .TeaSubscriptionCardDetails .teas h3,
+  .TeaSubscriptionCardDetails .customers h3 {
+    font-size: 18px;
+  }
+
+  .TeaSubscriptionCardDetails p {
+    font-size: 16px;
+  }
+} */
