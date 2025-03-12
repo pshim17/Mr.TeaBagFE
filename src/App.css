@@ -1,7 +1,14 @@
+html, body {
+  background-image: url('./assets/icons/background1.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100%;  
+  margin: 0;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -11,11 +18,17 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.main-content {
+  margin-top: 200px; 
 }
 
 @keyframes logo-spin {
