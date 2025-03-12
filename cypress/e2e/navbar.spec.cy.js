@@ -21,4 +21,14 @@ describe('Navbar', () => {
     cy.get('.sort-button').should('be.visible');
   })
 
+  it('displays the tea subscription cards', () => {
+    cy.get('.TeaSubscriptionsContainer').should('be.visible');
+    cy.get('.TeaSubscriptionsContainer .TeaSubscriptions').should('have.length', 3);
+
+    cy.get('.TeaSubscriptionsContainer > section').first().find('img').should('be.visible');
+    cy.get('.TeaSubscriptionsContainer > section').first().find('p').contains('Monthly Tea Box');
+    
+    cy.get('.TeaSubscriptionsContainer > section').last().find('img').should('be.visible');
+    cy.get('.TeaSubscriptionsContainer > section').last().find('p').contains('Fortnightly Tea Box');
+  })
 })

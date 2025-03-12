@@ -1,17 +1,22 @@
-[
-  {
-    "id": 1,
-    "title": "Monthly Tea Box",
-    "icon": "/src/assets/icons/tea-icon.jpg"
-  },
-  {
-    "id": 2,
-    "title": "Weekly Tea Sampler",
-    "icon": "/src/assets/icons/tea-icon.jpg"
-  },
-  {
-    "id": 3,
-    "title": "Fortnightly Tea Box",
-    "icon": "/src/assets/icons/tea-icon.jpg"
-  }
-]
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "title": "Monthly Tea Box"
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "title": "Weekly Tea Sampler"
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "title": "Fortnightly Tea Box"
+      }
+    }
+  ]
+}
