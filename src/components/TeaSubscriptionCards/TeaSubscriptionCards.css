@@ -8,7 +8,7 @@
   width: 100%;
   max-width: 200px;
   margin: 20px;
-  text-align: center; /* Ensure text and image are centered */
+  text-align: center; 
 }
 
 .TeaSubscriptions:hover {
@@ -19,8 +19,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%; /* Ensure the link takes full width */
-  text-decoration: none; /* Remove underline */
+  width: 100%; 
+  text-decoration: none; 
 }
 
 .title-container {
