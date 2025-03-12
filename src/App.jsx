@@ -1,6 +1,6 @@
 import './App.css';
 import { useState, useEffect } from 'react';
-import { Routes, Route, NavLink } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/NavBar/Navbar.jsx'
 import TeaSubscriptionsContainer from './components/TeaSubscriptionsContainer/TeaSubscriptionsContainer.jsx'
 import TeaSubscriptionCardDetails from './components/TeaSubscriptionCardDetails/TeaSubscriptionCardDetails.jsx';
@@ -23,7 +23,7 @@ function App() {
 
   return (
     <main className="App">
-      <Navbar />
+      <Navbar teaSubscriptions={teaSubscriptions} setTeaSubscriptions={setTeaSubscriptions} />
       <div className="main-content">
         <Routes>
           <Route path="/" element={<TeaSubscriptionsContainer teaSubscriptions={teaSubscriptions} />}/>
