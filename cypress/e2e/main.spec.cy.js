@@ -1,4 +1,4 @@
-describe('Navbar', () => {
+describe('Main Page', () => {
   beforeEach(() => {
     cy.intercept('GET', 'http://localhost:3000/api/v1/subscriptions', { 
       statusCode: 200,
@@ -30,5 +30,15 @@ describe('Navbar', () => {
     
     cy.get('.TeaSubscriptionsContainer > section').last().find('img').should('be.visible');
     cy.get('.TeaSubscriptionsContainer > section').last().find('p').contains('Fortnightly Tea Box');
+  })
+
+  it('clicking on the Sort By Name button reorders alphabetically by title', () => {
+    cy.get('.sort-button').click();
+
+    cy.get('.TeaSubscriptionsContainer > section').first().find('img').should('be.visible');
+    cy.get('.TeaSubscriptionsContainer > section').first().find('p').contains('Fortnightly Tea Box');
+
+    cy.get('.TeaSubscriptionsContainer > section').last().find('img').should('be.visible');
+    cy.get('.TeaSubscriptionsContainer > section').last().find('p').contains('Weekly Tea Sampler'); 
   })
 })

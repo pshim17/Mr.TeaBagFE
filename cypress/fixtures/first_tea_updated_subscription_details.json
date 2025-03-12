@@ -1,0 +1,47 @@
+{
+  "data": {
+    "id": "1",
+    "type": "subscription",
+    "attributes": {
+      "id": 1,
+      "title": "Weekly Tea Delight",
+      "price": "15.49",
+      "isActive": false,
+      "frequency": 7,
+      "teas": [
+        {
+          "id": 4,
+          "title": "Peppermint",
+          "description": "Refreshing peppermint herbal tea.",
+          "temperature": 85,
+          "brew_time": 4,
+          "price": 4.49
+        },
+        {
+          "id": 5,
+          "title": "Lemon Ginger",
+          "description": "Spicy ginger tea with a tang of lemon.",
+          "temperature": 90,
+          "brew_time": 3,
+          "price": 5.19
+        }
+      ],
+      "customers": [
+        {
+          "id": 4,
+          "first_name": "Alice",
+          "last_name": "Johnson",
+          "email": "alice.johnson@email.com",
+          "address": "123 Maple Street"
+        },
+        {
+          "id": 6,
+          "first_name": "Charlie",
+          "last_name": "Davis",
+          "email": "charlie.davis@email.com",
+          "address": "789 Pine Road"
+        }
+      ]
+    }
+  }
+}
