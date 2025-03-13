@@ -24,7 +24,7 @@ function Navbar({ teaSubscriptions, setTeaSubscriptions }) {
           <Link to="/">
             <img className='logo' src={Logo} alt="Mr. Teabag logo" />
             <h1 className='title'>Mr. Teabag</h1>
-            {location.pathname.split('/').length != 1 && location.pathname === '/' && (
+            {location.pathname === '/' && (
               <button className="sort-button" onClick={sortAlphabetically}>Sort By Name</button>
             )}
           </Link>
