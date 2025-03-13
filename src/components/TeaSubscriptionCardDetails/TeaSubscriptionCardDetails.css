@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 250px;
 }
 
 .TeaSubscriptionCardDetails img {
@@ -96,6 +97,7 @@
     width: 90%;
     max-width: 600px;
     padding: 15px;
+    margin-top: 150px;
   }
 
   .TeaSubscriptionCardDetails img {
@@ -129,6 +131,8 @@
   .TeaSubscriptionCardDetails {
     width: 95%;
     padding: 10px;
+    margin-bottom: 50px;
+
   }
 
   .TeaSubscriptionCardDetails img {

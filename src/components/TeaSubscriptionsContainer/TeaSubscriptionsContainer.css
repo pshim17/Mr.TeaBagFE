@@ -4,14 +4,8 @@
   justify-content: space-around; 
 }
 
-@media (max-width: 1024px) {
-  .TeaSubscriptionsContainer {
-  }
-}
-
 @media (max-width: 768px) {
   .TeaSubscriptionsContainer {
-    /* margin-top: 100px; */
     align-items: center;
   }
 }
