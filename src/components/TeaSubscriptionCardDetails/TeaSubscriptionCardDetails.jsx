@@ -41,6 +41,7 @@ function TeaSubscriptionCardDetails() {
   }, [])
 
   if(clickedTeaSubscription) {
+    console.log(clickedTeaSubscription.data.attributes)
     return (
       <section className='TeaSubscriptionCardDetails'>
         <img src= {teaIcon } alt="tea icon" />
@@ -54,6 +55,7 @@ function TeaSubscriptionCardDetails() {
         </h2>
 
         <h2>Price: ${ clickedTeaSubscription.data.attributes.price }</h2>
+        <h2>Renews every { clickedTeaSubscription.data.attributes.frequency } days</h2>
 
         <div className="teas">
           <h2>Tea(s) Included:</h2>
