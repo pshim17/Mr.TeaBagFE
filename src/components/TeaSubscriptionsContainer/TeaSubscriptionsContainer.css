@@ -2,5 +2,38 @@
   display: flex; 
   flex-wrap: wrap; 
   justify-content: space-around; 
-  padding: 20px; 
+}
+
+@media (max-width: 1024px) {
+  .TeaSubscriptionsContainer {
+  }
+}
+
+@media (max-width: 768px) {
+  .TeaSubscriptionsContainer {
+    /* margin-top: 100px; */
+    align-items: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .TeaSubscriptionsContainer {
+    margin-top: 120px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .TeaSubscriptionsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .TeaSubscriptionsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
 }

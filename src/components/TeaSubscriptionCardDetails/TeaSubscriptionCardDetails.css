@@ -90,3 +90,67 @@
 .TeaSubscriptionCardDetails button:hover {
   background-color: #B71C1C; 
 }
+
+@media (max-width: 768px) {
+  .TeaSubscriptionCardDetails {
+    width: 90%;
+    max-width: 600px;
+    padding: 15px;
+  }
+
+  .TeaSubscriptionCardDetails img {
+    width: 150px;
+    height: 150px;
+    margin-top: -75px;
+  }
+
+  .TeaSubscriptionCardDetails h1 {
+    font-size: 28px;
+  }
+
+  .TeaSubscriptionCardDetails h2 {
+    font-size: 20px;
+  }
+
+  .TeaSubscriptionCardDetails p {
+    font-size: 16px;
+  }
+
+  .button-container {
+    flex-direction: column;
+  }
+
+  .cancelButton {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .TeaSubscriptionCardDetails {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .TeaSubscriptionCardDetails img {
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+  }
+
+  .TeaSubscriptionCardDetails h1 {
+    font-size: 24px;
+  }
+
+  .TeaSubscriptionCardDetails h2 {
+    font-size: 18px;
+  }
+
+  .TeaSubscriptionCardDetails p {
+    font-size: 14px;
+  }
+
+  .cancelButton button {
+    width: 100%;
+    padding: 12px 0;
+  }
+}

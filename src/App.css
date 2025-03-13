@@ -1,4 +1,4 @@
-html, body {
+body {
   background-image: url('./assets/icons/background1.jpg'); 
   background-size: cover;
   background-position: center top; 
@@ -28,7 +28,7 @@ html, body {
 }
 
 .main-content {
-  margin-top: 200px; 
+  margin-top: 150px; 
 }
 
 @keyframes logo-spin {
